@@ -1,0 +1,7 @@
+easyocr
+opencv-python
+numpy
+sqlalchemy
+twilio
+torch
+pillow
