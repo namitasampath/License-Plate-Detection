@@ -45,24 +45,39 @@ def init_database():
     # Add sample employees
     sample_employees = [
         Employee(
-            name="John Doe",
+            name="Rishita Chaudary",
             license_plate="HR26DK8337",
             department="IT",
-            expected_arrival=time(9, 0)    # Expected at 9:00 AM
+            expected_arrival=time(9, 0)   
         ),
         Employee(
-            name="Jane Smith",
+            name="Namita Sampath",
             license_plate="KA03MG9267",
             department="HR",
-            expected_arrival=time(8, 30)   # Expected at 8:30 AM
+            expected_arrival=time(9, 00)   
         ),
         Employee(
-            name="Bob Johnson",
+            name="Hareetha Loganathan",
             license_plate="KA5GP8497",
-            department="Engineering",
-            expected_arrival=time(9, 30)   # Expected at 9:30 AM
+            department="Finance",
+            expected_arrival=time(9, 0)   
         ),
-        # Add more employees as needed
+        Employee(
+            name="Mahika Singh",
+            license_plate="MH20DV236E",
+            department="Finance",
+            expected_arrival=time(9, 0)  
+        ),Employee(
+            name="Geethika Sudasvini",
+            license_plate="IT20BOM",
+            department="IT",
+            expected_arrival=time(9, 0)   
+        ),Employee(
+            name="Anthra Prabhu",
+            license_plate="KA19P8488",
+            department="IT",
+            expected_arrival=time(9, 0)
+        ),
     ]
 
     # Add employees to database
